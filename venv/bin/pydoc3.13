@@ -1,5 +1,0 @@
-#!/Users/mohanganesh/GenAi/ATS_tracking/venv/bin/python3.13
-
-import pydoc
-if __name__ == '__main__':
-    pydoc.cli()
