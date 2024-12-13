@@ -1,0 +1,28 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+ENV/
+env/
+venv/
+# .env file for storing sensitive keys
+.env
+
+# IDE/Editor files
+.vscode/
+.idea/
+
+# System-specific files
+.DS_Store
+
+# Log files
+*.log
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Dependency directories
+node_modules/
