@@ -3,13 +3,18 @@
 Smart ATS is a web application designed to help job seekers optimize their resumes for Applicant Tracking Systems (ATS). Powered by Google Gemini and Streamlit, it evaluates resumes against a job description, identifies missing keywords, and provides actionable feedback to boost your chances of landing the perfect job.
 
 ## 🎬 Demo
-![Smart ATS Demo](https://github.com/user-attachments/assets/c69d396b-a60d-4514-981c-564c93bfdfea)
+
+<img width="639" alt="Screenshot 2024-12-13 at 6 40 20 AM" src="https://github.com/user-attachments/assets/0da55fa5-3a9d-4b7c-8f19-650d46fa12b0" />
 
 1. **Paste Job Description:** Enter the JD in the text area.
 2. **Upload Resume:** Click “Upload Your Resume” and select a PDF file.
-![Upload Resume](https://github.com/user-attachments/assets/c5193bd3-ff7a-4ac5-ba87-600dfdf03020)
-3. **Get Insights:** Hit “Submit” and view your results instantly!
-![Get Insights](https://github.com/user-attachments/assets/3558c606-f75e-4574-8514-c2aa224d0c7a)
+   
+<img width="632" alt="Screenshot 2024-12-13 at 6 43 37 AM" src="https://github.com/user-attachments/assets/dedc77a7-756e-4535-8c21-f0f71d9d9039" />
+
+5. **Get Insights:** Hit “Submit” and view your results instantly!
+
+<img width="635" alt="Screenshot 2024-12-13 at 6 43 56 AM" src="https://github.com/user-attachments/assets/84d749e7-6d4d-4869-85ec-76ef1bbc1046" />
+
 
 ## 🚀 Features
 - 📋 **Resume Analysis:** Upload your resume as a PDF, and let Smart ATS evaluate it.
