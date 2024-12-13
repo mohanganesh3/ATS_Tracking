@@ -1,25 +1,6 @@
-# Ignore virtual environment folder
+
+.env
+.gitattributes
+venv
 venv/
 
-# Byte-compiled / optimized / compiled Python files
-*.py[cod]
-__pycache__/
-*.so
-
-# Logs and other system files
-*.log
-*.sqlite3
-.DS_Store
-
-# Ignore IDE or editor settings
-.idea/
-.vscode/
-*.swp
-
-# Ignore environment variables file
-.env
-
-# Ignore build and distribution folders
-build/
-dist/
-*.egg-info/
