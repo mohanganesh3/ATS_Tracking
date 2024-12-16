@@ -37,41 +37,41 @@ Smart ATS is a web application designed to help job seekers optimize their resum
 ## 🖥️ Step by Step
 
 ### Step 1: Clone the Repository
-```bash
-git clone https://github.com/your-username/smart-ats.git
-cd smart-ats
+	
+	git clone https://github.com/your-username/smart-ats.git
+	cd smart-ats
 
-Step 2: Set Up the Environment
+### Step 2: Set Up the Environment
 
 Create a virtual environment (optional but recommended) and install dependencies:
 
-python -m venv venv
-source venv/bin/activate  # For Windows: venv\Scripts\activate
-pip install streamlit google-generativeai PyPDF2 python-dotenv
+	python -m venv venv
+	source venv/bin/activate  # For Windows: venv\Scripts\activate
+	pip install streamlit google-generativeai PyPDF2 python-dotenv
 
-Step 3: Configure API Key
-	•	Obtain your Google Gemini API Key.
-	•	Create a .env file in the project directory with the following content:
+### Step 3: Configure API Key
+•	Obtain your Google Gemini API Key.
+•	Create a .env file in the project directory with the following content:
 
-GOOGLE_API_KEY=your_google_api_key
+	GOOGLE_API_KEY=your_google_api_key
 
-Step 4: Run the Application
+### Step 4: Run the Application
 
 Start the Streamlit app:
 
-streamlit run app.py
+	streamlit run app.py
 
-Step 5: Use the App
+### Step 5: Use the App
 	•	Paste Job Description: Enter the JD in the text area.
 	•	Upload Resume: Click “Upload Your Resume” and select a PDF file.
 	•	Get Insights: Hit “Submit” and view your results instantly!
 
 ## 📂 Project Structure
 
-smart-ats/
-├── app.py                # Main application code
-├── .env                  # API keys (add this manually)
-├── requirements.txt      # Python dependencies
+	smart-ats/
+	├── app.py                # Main application code
+	├── .env                  # API keys (add this manually)
+	├── requirements.txt      # Python dependencies
 
 ## 🌟 Example Output
 
