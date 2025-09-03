@@ -47,28 +47,28 @@ Smart ATS is a web application designed to help job seekers optimize their resum
    streamlit run app.py
    ```
 
-## Deployment to Vercel
+## Deployment to Streamlit Community Cloud
 
-This application is configured for deployment to Vercel with the following settings:
+This application is configured for deployment to Streamlit Community Cloud with the following settings:
 
-### Build Command
-```
-pip install -r requirements.txt
-```
-
-### Start Command
-```
-streamlit run app.py --server.port=8501 --server.address=0.0.0.0
-```
+### Deployment Steps
+1. Visit [Streamlit Community Cloud](https://streamlit.io/cloud) and sign in with your GitHub account
+2. Click on "New app"
+3. Select your repository (mohanganesh3/ATS_Tracking)
+4. Set the branch to "main"
+5. Set the main file path to "app.py"
+6. Click "Deploy"
 
 ### Environment Variables
-Set the following environment variable in your Vercel project settings:
-- `GOOGLE_API_KEY`: Your Google Gemini API key
+In the Streamlit Cloud settings, you must add your Google API key:
+- Key: `GOOGLE_API_KEY`
+- Value: Your actual Google Gemini API key (get it from https://makersuite.google.com/app/apikey)
 
 ### Configuration
-The `.streamlit/config.toml` file is configured to:
-- Use polling instead of file watchers to avoid inotify limits
-- Set appropriate server settings for Vercel deployment
+The application includes configuration to:
+- Avoid inotify limits that cause deployment issues
+- Handle API authentication errors gracefully
+- Provide clear error messages to users
 
 ## Directory Structure
 ```
@@ -93,4 +93,5 @@ smart-ats/
 
 - Only PDF resumes are supported
 - The application requires a Google Gemini API key for AI analysis
-- For Vercel deployment, file watching is disabled to prevent inotify limits
+- File watching is configured to avoid inotify limits on cloud platforms
+- Error handling is implemented for common issues like missing API keys or PDF parsing errors
