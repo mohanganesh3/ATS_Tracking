@@ -12,3 +12,10 @@ font = "sans serif"
 
 [browser]
 gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+[watcher]
+type = "poll"
+pollInterval = 2000
