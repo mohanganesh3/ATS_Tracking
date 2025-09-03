@@ -66,7 +66,7 @@ In the Streamlit Cloud settings, you must add your Google API key:
 
 ### Configuration
 The application includes configuration to:
-- Avoid inotify limits that cause deployment issues
+- Avoid file watcher issues that cause deployment problems
 - Handle API authentication errors gracefully
 - Provide clear error messages to users
 
@@ -93,5 +93,5 @@ smart-ats/
 
 - Only PDF resumes are supported
 - The application requires a Google Gemini API key for AI analysis
-- File watching is configured to avoid inotify limits on cloud platforms
+- File watching is minimized to avoid issues on cloud platforms
 - Error handling is implemented for common issues like missing API keys or PDF parsing errors
