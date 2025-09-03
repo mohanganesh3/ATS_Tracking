@@ -15,7 +15,3 @@ gatherUsageStats = false
 
 [client]
 toolbarMode = "minimal"
-
-[watcher]
-type = "poll"
-pollInterval = 2000
